@@ -87,7 +87,6 @@ function Presentation() {
           <img src={higif} alt="Example GIF" style={{ maxWidth: '20%', alignContent: 'center' }} />
         </Container>
       </MKBox>
-      git remote set-url origin https://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@github.com/mbothra/its-time.git
       <Card
         sx={{
           p: 2,

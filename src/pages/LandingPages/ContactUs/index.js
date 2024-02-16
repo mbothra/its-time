@@ -6,6 +6,7 @@ import MKTypography from "components/MKTypography";
 import DefaultFooter from "examples/Footers/DefaultFooter";
 import footerRoutes from "footer.routes";
 import bgImage from "assets/images/illustrations/illustration-reset.jpg";
+import { Link } from "react-router-dom";
 
 function ContactUs() {
   const [noClickCount, setNoClickCount] = useState(0);
@@ -66,7 +67,7 @@ function ContactUs() {
 
               <MKBox width="100%" component="form" method="post" autoComplete="off">
                 <Grid container item justifyContent="center" xs={12} mt={5} mb={2}>
-                <MKButton type="submit" variant="gradient" color="success" sx={yesButtonStyle}>
+                <MKButton component={Link} to="/pages/landing-pages/about-us" variant="gradient" color="success" sx={yesButtonStyle}>
                     Yes
                   </MKButton>
                   <MKButton onClick={handleNoClick} variant="gradient" color="error">

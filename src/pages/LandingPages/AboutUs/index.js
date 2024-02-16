@@ -21,13 +21,6 @@ import Grid from "@mui/material/Grid";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-// Material Kit 2 React examples
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-
-
-// Routes
-import routes from "routes";
-
 // Images
 import exampleGif from "assets/images/yes.gif";
 import exgif from "assets/images/yes2.gif";
@@ -35,17 +28,6 @@ import exgif from "assets/images/yes2.gif";
 function AboutUs() {
   return (
     <>
-      <DefaultNavbar
-        routes={routes}
-        action={{
-          type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
-          color: "default",
-        }}
-        transparent
-        light
-      />
       <MKBox
         minHeight="100vh"
         width="100%"
